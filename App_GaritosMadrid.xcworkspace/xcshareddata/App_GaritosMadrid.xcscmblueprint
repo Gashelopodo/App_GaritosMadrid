@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5ED149C5CB765468E74EA518FC5DD22CD7592341",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5EBB1FBB9DF725501637204B01546967C4D664C4" : 9223372036854775807,
+    "5ED149C5CB765468E74EA518FC5DD22CD7592341" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8B65DE32-826A-4802-9E69-DBF82BE47C85",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5EBB1FBB9DF725501637204B01546967C4D664C4" : "",
+    "5ED149C5CB765468E74EA518FC5DD22CD7592341" : "App_GaritosMadrid-master\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "App_GaritosMadrid",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "App_GaritosMadrid.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Gashelopodo\/App_Sync_Async.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5EBB1FBB9DF725501637204B01546967C4D664C4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Gashelopodo\/App_GaritosMadrid.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5ED149C5CB765468E74EA518FC5DD22CD7592341"
+    }
+  ]
+}

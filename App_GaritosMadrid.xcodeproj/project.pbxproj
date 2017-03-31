@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091D95CC1E60C1020063A1CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091D95CB1E60C1020063A1CE /* AppDelegate.swift */; };
+		091D95CE1E60C1020063A1CE /* CurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091D95CD1E60C1020063A1CE /* CurrentViewController.swift */; };
+		091D95D11E60C1020063A1CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091D95CF1E60C1020063A1CE /* Main.storyboard */; };
+		091D95D31E60C1020063A1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091D95D21E60C1020063A1CE /* Assets.xcassets */; };
+		091D95D61E60C1020063A1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091D95D41E60C1020063A1CE /* LaunchScreen.storyboard */; };
+		09280A361E8587B600411BDA /* GMGaritosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09280A351E8587B600411BDA /* GMGaritosModel.swift */; };
+		09280A391E85B55600411BDA /* DetallearitoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09280A381E85B55600411BDA /* DetallearitoViewController.swift */; };
+		09280A3B1E85BBF700411BDA /* Api_manager_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09280A3A1E85BBF700411BDA /* Api_manager_data.swift */; };
+		095734241E60CEFE000A2935 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095734231E60CEFE000A2935 /* SWRevealViewController.m */; };
+		098B0A111E72FA8200C0CEA2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 098B0A101E72FA8200C0CEA2 /* Podfile */; };
+		098B0A131E73019500C0CEA2 /* Api_utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B0A121E73019500C0CEA2 /* Api_utils.swift */; };
+		098B0A151E73051B00C0CEA2 /* Api_helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B0A141E73051B00C0CEA2 /* Api_helpers.swift */; };
+		098B0A1B1E73056900C0CEA2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098B0A161E73056900C0CEA2 /* Alamofire.framework */; };
+		098B0A1C1E73056900C0CEA2 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098B0A171E73056900C0CEA2 /* Kingfisher.framework */; };
+		098B0A1D1E73056900C0CEA2 /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098B0A181E73056900C0CEA2 /* PKHUD.framework */; };
+		098B0A1E1E73056900C0CEA2 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098B0A191E73056900C0CEA2 /* PromiseKit.framework */; };
+		098B0A1F1E73056900C0CEA2 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098B0A1A1E73056900C0CEA2 /* SwiftyJSON.framework */; };
+		098B0A221E73091100C0CEA2 /* GMPhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B0A211E73091100C0CEA2 /* GMPhotosModel.swift */; };
+		098B0A251E730A8000C0CEA2 /* GMParserPhotosData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B0A241E730A8000C0CEA2 /* GMParserPhotosData.swift */; };
+		098B0A2B1E7313DE00C0CEA2 /* GMDetallePhotoCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B0A291E7313DE00C0CEA2 /* GMDetallePhotoCustomCell.swift */; };
+		098B0A2C1E7313DE00C0CEA2 /* GMDetallePhotoCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 098B0A2A1E7313DE00C0CEA2 /* GMDetallePhotoCustomCell.xib */; };
+		098B0A2E1E731C4E00C0CEA2 /* GMLIstaPhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B0A2D1E731C4E00C0CEA2 /* GMLIstaPhotosTableViewController.swift */; };
+		098B0A4E1E733A2D00C0CEA2 /* GMComicsPostersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B0A4D1E733A2D00C0CEA2 /* GMComicsPostersModel.swift */; };
+		098B0A501E733AF500C0CEA2 /* GMParserComicsPostersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B0A4F1E733AF500C0CEA2 /* GMParserComicsPostersData.swift */; };
+		098B0A531E733DFC00C0CEA2 /* GMListaPostersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B0A521E733DFC00C0CEA2 /* GMListaPostersTableViewController.swift */; };
+		098B0A561E733E1B00C0CEA2 /* GMDetallePosterCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B0A541E733E1B00C0CEA2 /* GMDetallePosterCustomCell.swift */; };
+		098B0A571E733E1B00C0CEA2 /* GMDetallePosterCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 098B0A551E733E1B00C0CEA2 /* GMDetallePosterCustomCell.xib */; };
+		8D9255FF1E8EAD4800800E7C /* ImagenGaritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9255FE1E8EAD4800800E7C /* ImagenGaritoViewController.swift */; };
+		FD0E0751C7FB3FC166959140 /* Pods_App_GaritosMadrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82800C8819F374B58B35A9F /* Pods_App_GaritosMadrid.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		091D95C81E60C1020063A1CE /* App_GaritosMadrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_GaritosMadrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		091D95CB1E60C1020063A1CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		091D95CD1E60C1020063A1CE /* CurrentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentViewController.swift; sourceTree = "<group>"; };
+		091D95D01E60C1020063A1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		091D95D21E60C1020063A1CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		091D95D51E60C1020063A1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		091D95D71E60C1020063A1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09280A351E8587B600411BDA /* GMGaritosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMGaritosModel.swift; sourceTree = "<group>"; };
+		09280A371E85A2F200411BDA /* TeoriaNSCoding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TeoriaNSCoding.playground; sourceTree = "<group>"; };
+		09280A381E85B55600411BDA /* DetallearitoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetallearitoViewController.swift; sourceTree = "<group>"; };
+		09280A3A1E85BBF700411BDA /* Api_manager_data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api_manager_data.swift; sourceTree = "<group>"; };
+		095734211E60CEFE000A2935 /* App_GaritosMadrid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App_GaritosMadrid-Bridging-Header.h"; sourceTree = "<group>"; };
+		095734221E60CEFE000A2935 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		095734231E60CEFE000A2935 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		098B0A101E72FA8200C0CEA2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		098B0A121E73019500C0CEA2 /* Api_utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api_utils.swift; sourceTree = "<group>"; };
+		098B0A141E73051B00C0CEA2 /* Api_helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api_helpers.swift; sourceTree = "<group>"; };
+		098B0A161E73056900C0CEA2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../../../../Users/cice/Library/Developer/Xcode/DerivedData/App_GaritosMadrid-affvenosbweattbncetkjrppsdtr/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		098B0A171E73056900C0CEA2 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "../../../../../../../Users/cice/Library/Developer/Xcode/DerivedData/App_GaritosMadrid-affvenosbweattbncetkjrppsdtr/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework"; sourceTree = "<group>"; };
+		098B0A181E73056900C0CEA2 /* PKHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PKHUD.framework; path = "../../../../../../../Users/cice/Library/Developer/Xcode/DerivedData/App_GaritosMadrid-affvenosbweattbncetkjrppsdtr/Build/Products/Debug-iphonesimulator/PKHUD/PKHUD.framework"; sourceTree = "<group>"; };
+		098B0A191E73056900C0CEA2 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = "../../../../../../../Users/cice/Library/Developer/Xcode/DerivedData/App_GaritosMadrid-affvenosbweattbncetkjrppsdtr/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework"; sourceTree = "<group>"; };
+		098B0A1A1E73056900C0CEA2 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../../../../Users/cice/Library/Developer/Xcode/DerivedData/App_GaritosMadrid-affvenosbweattbncetkjrppsdtr/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		098B0A211E73091100C0CEA2 /* GMPhotosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMPhotosModel.swift; sourceTree = "<group>"; };
+		098B0A241E730A8000C0CEA2 /* GMParserPhotosData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMParserPhotosData.swift; sourceTree = "<group>"; };
+		098B0A291E7313DE00C0CEA2 /* GMDetallePhotoCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMDetallePhotoCustomCell.swift; sourceTree = "<group>"; };
+		098B0A2A1E7313DE00C0CEA2 /* GMDetallePhotoCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GMDetallePhotoCustomCell.xib; sourceTree = "<group>"; };
+		098B0A2D1E731C4E00C0CEA2 /* GMLIstaPhotosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMLIstaPhotosTableViewController.swift; sourceTree = "<group>"; };
+		098B0A4D1E733A2D00C0CEA2 /* GMComicsPostersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMComicsPostersModel.swift; sourceTree = "<group>"; };
+		098B0A4F1E733AF500C0CEA2 /* GMParserComicsPostersData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMParserComicsPostersData.swift; sourceTree = "<group>"; };
+		098B0A521E733DFC00C0CEA2 /* GMListaPostersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMListaPostersTableViewController.swift; sourceTree = "<group>"; };
+		098B0A541E733E1B00C0CEA2 /* GMDetallePosterCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMDetallePosterCustomCell.swift; sourceTree = "<group>"; };
+		098B0A551E733E1B00C0CEA2 /* GMDetallePosterCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GMDetallePosterCustomCell.xib; sourceTree = "<group>"; };
+		81FAA26F510CE51383EBD245 /* Pods-App_GaritosMadrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_GaritosMadrid.release.xcconfig"; path = "Pods/Target Support Files/Pods-App_GaritosMadrid/Pods-App_GaritosMadrid.release.xcconfig"; sourceTree = "<group>"; };
+		8D9255FE1E8EAD4800800E7C /* ImagenGaritoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagenGaritoViewController.swift; sourceTree = "<group>"; };
+		C82800C8819F374B58B35A9F /* Pods_App_GaritosMadrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_GaritosMadrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC85E242CDC9BDD0F80659BC /* Pods-App_GaritosMadrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_GaritosMadrid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App_GaritosMadrid/Pods-App_GaritosMadrid.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		091D95C51E60C1020063A1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098B0A1B1E73056900C0CEA2 /* Alamofire.framework in Frameworks */,
+				098B0A1C1E73056900C0CEA2 /* Kingfisher.framework in Frameworks */,
+				098B0A1D1E73056900C0CEA2 /* PKHUD.framework in Frameworks */,
+				098B0A1E1E73056900C0CEA2 /* PromiseKit.framework in Frameworks */,
+				098B0A1F1E73056900C0CEA2 /* SwiftyJSON.framework in Frameworks */,
+				FD0E0751C7FB3FC166959140 /* Pods_App_GaritosMadrid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091D95BF1E60C1020063A1CE = {
+			isa = PBXGroup;
+			children = (
+				098B0A101E72FA8200C0CEA2 /* Podfile */,
+				091D95CA1E60C1020063A1CE /* App_GaritosMadrid */,
+				091D95C91E60C1020063A1CE /* Products */,
+				F5CD4A5C35880AB3A0BF8B91 /* Pods */,
+				40E38BF75F39D2FFC5265E59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		091D95C91E60C1020063A1CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				091D95C81E60C1020063A1CE /* App_GaritosMadrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		091D95CA1E60C1020063A1CE /* App_GaritosMadrid */ = {
+			isa = PBXGroup;
+			children = (
+				095734201E60CECB000A2935 /* OBJ-C */,
+				091D95CB1E60C1020063A1CE /* AppDelegate.swift */,
+				09280A371E85A2F200411BDA /* TeoriaNSCoding.playground */,
+				098B0A231E73091B00C0CEA2 /* MODELS */,
+				098B0A201E73089200C0CEA2 /* API */,
+				098B0A261E73138300C0CEA2 /* VIEWS_CONTROLLERS */,
+				091D95CF1E60C1020063A1CE /* Main.storyboard */,
+				091D95D21E60C1020063A1CE /* Assets.xcassets */,
+				091D95D41E60C1020063A1CE /* LaunchScreen.storyboard */,
+				091D95D71E60C1020063A1CE /* Info.plist */,
+			);
+			path = App_GaritosMadrid;
+			sourceTree = "<group>";
+		};
+		095734201E60CECB000A2935 /* OBJ-C */ = {
+			isa = PBXGroup;
+			children = (
+				095734221E60CEFE000A2935 /* SWRevealViewController.h */,
+				095734231E60CEFE000A2935 /* SWRevealViewController.m */,
+				095734211E60CEFE000A2935 /* App_GaritosMadrid-Bridging-Header.h */,
+			);
+			name = "OBJ-C";
+			sourceTree = "<group>";
+		};
+		098B0A201E73089200C0CEA2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				098B0A121E73019500C0CEA2 /* Api_utils.swift */,
+				098B0A141E73051B00C0CEA2 /* Api_helpers.swift */,
+				09280A3A1E85BBF700411BDA /* Api_manager_data.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		098B0A231E73091B00C0CEA2 /* MODELS */ = {
+			isa = PBXGroup;
+			children = (
+				098B0A241E730A8000C0CEA2 /* GMParserPhotosData.swift */,
+				098B0A211E73091100C0CEA2 /* GMPhotosModel.swift */,
+				098B0A4D1E733A2D00C0CEA2 /* GMComicsPostersModel.swift */,
+				098B0A4F1E733AF500C0CEA2 /* GMParserComicsPostersData.swift */,
+				09280A351E8587B600411BDA /* GMGaritosModel.swift */,
+			);
+			name = MODELS;
+			sourceTree = "<group>";
+		};
+		098B0A261E73138300C0CEA2 /* VIEWS_CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				091D95CD1E60C1020063A1CE /* CurrentViewController.swift */,
+				09280A381E85B55600411BDA /* DetallearitoViewController.swift */,
+				8D9255FE1E8EAD4800800E7C /* ImagenGaritoViewController.swift */,
+				098B0A581E733E1F00C0CEA2 /* VC_POSTERS */,
+				098B0A511E733DD700C0CEA2 /* VC_PHOTOS */,
+			);
+			name = VIEWS_CONTROLLERS;
+			sourceTree = "<group>";
+		};
+		098B0A511E733DD700C0CEA2 /* VC_PHOTOS */ = {
+			isa = PBXGroup;
+			children = (
+				098B0A2D1E731C4E00C0CEA2 /* GMLIstaPhotosTableViewController.swift */,
+				098B0A291E7313DE00C0CEA2 /* GMDetallePhotoCustomCell.swift */,
+				098B0A2A1E7313DE00C0CEA2 /* GMDetallePhotoCustomCell.xib */,
+			);
+			name = VC_PHOTOS;
+			sourceTree = "<group>";
+		};
+		098B0A581E733E1F00C0CEA2 /* VC_POSTERS */ = {
+			isa = PBXGroup;
+			children = (
+				098B0A521E733DFC00C0CEA2 /* GMListaPostersTableViewController.swift */,
+				098B0A541E733E1B00C0CEA2 /* GMDetallePosterCustomCell.swift */,
+				098B0A551E733E1B00C0CEA2 /* GMDetallePosterCustomCell.xib */,
+			);
+			name = VC_POSTERS;
+			sourceTree = "<group>";
+		};
+		40E38BF75F39D2FFC5265E59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				098B0A161E73056900C0CEA2 /* Alamofire.framework */,
+				098B0A171E73056900C0CEA2 /* Kingfisher.framework */,
+				098B0A181E73056900C0CEA2 /* PKHUD.framework */,
+				098B0A191E73056900C0CEA2 /* PromiseKit.framework */,
+				098B0A1A1E73056900C0CEA2 /* SwiftyJSON.framework */,
+				C82800C8819F374B58B35A9F /* Pods_App_GaritosMadrid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5CD4A5C35880AB3A0BF8B91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC85E242CDC9BDD0F80659BC /* Pods-App_GaritosMadrid.debug.xcconfig */,
+				81FAA26F510CE51383EBD245 /* Pods-App_GaritosMadrid.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		091D95C71E60C1020063A1CE /* App_GaritosMadrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091D95DA1E60C1020063A1CE /* Build configuration list for PBXNativeTarget "App_GaritosMadrid" */;
+			buildPhases = (
+				D03AC2BFFBD14836AA03AFEF /* [CP] Check Pods Manifest.lock */,
+				091D95C41E60C1020063A1CE /* Sources */,
+				091D95C51E60C1020063A1CE /* Frameworks */,
+				091D95C61E60C1020063A1CE /* Resources */,
+				CADFC0BE0805E49B3CD003CE /* [CP] Embed Pods Frameworks */,
+				60F15E3EE19DACAC10821C5A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = App_GaritosMadrid;
+			productName = App_GaritosMadrid;
+			productReference = 091D95C81E60C1020063A1CE /* App_GaritosMadrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		091D95C01E60C1020063A1CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = cice;
+				TargetAttributes = {
+					091D95C71E60C1020063A1CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 091D95C31E60C1020063A1CE /* Build configuration list for PBXProject "App_GaritosMadrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 091D95BF1E60C1020063A1CE;
+			productRefGroup = 091D95C91E60C1020063A1CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				091D95C71E60C1020063A1CE /* App_GaritosMadrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		091D95C61E60C1020063A1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091D95D61E60C1020063A1CE /* LaunchScreen.storyboard in Resources */,
+				098B0A571E733E1B00C0CEA2 /* GMDetallePosterCustomCell.xib in Resources */,
+				098B0A2C1E7313DE00C0CEA2 /* GMDetallePhotoCustomCell.xib in Resources */,
+				091D95D31E60C1020063A1CE /* Assets.xcassets in Resources */,
+				098B0A111E72FA8200C0CEA2 /* Podfile in Resources */,
+				091D95D11E60C1020063A1CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60F15E3EE19DACAC10821C5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-App_GaritosMadrid/Pods-App_GaritosMadrid-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CADFC0BE0805E49B3CD003CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-App_GaritosMadrid/Pods-App_GaritosMadrid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D03AC2BFFBD14836AA03AFEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		091D95C41E60C1020063A1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098B0A221E73091100C0CEA2 /* GMPhotosModel.swift in Sources */,
+				098B0A561E733E1B00C0CEA2 /* GMDetallePosterCustomCell.swift in Sources */,
+				098B0A131E73019500C0CEA2 /* Api_utils.swift in Sources */,
+				098B0A2B1E7313DE00C0CEA2 /* GMDetallePhotoCustomCell.swift in Sources */,
+				091D95CE1E60C1020063A1CE /* CurrentViewController.swift in Sources */,
+				098B0A4E1E733A2D00C0CEA2 /* GMComicsPostersModel.swift in Sources */,
+				09280A391E85B55600411BDA /* DetallearitoViewController.swift in Sources */,
+				098B0A151E73051B00C0CEA2 /* Api_helpers.swift in Sources */,
+				098B0A531E733DFC00C0CEA2 /* GMListaPostersTableViewController.swift in Sources */,
+				091D95CC1E60C1020063A1CE /* AppDelegate.swift in Sources */,
+				8D9255FF1E8EAD4800800E7C /* ImagenGaritoViewController.swift in Sources */,
+				09280A361E8587B600411BDA /* GMGaritosModel.swift in Sources */,
+				098B0A501E733AF500C0CEA2 /* GMParserComicsPostersData.swift in Sources */,
+				098B0A2E1E731C4E00C0CEA2 /* GMLIstaPhotosTableViewController.swift in Sources */,
+				098B0A251E730A8000C0CEA2 /* GMParserPhotosData.swift in Sources */,
+				09280A3B1E85BBF700411BDA /* Api_manager_data.swift in Sources */,
+				095734241E60CEFE000A2935 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		091D95CF1E60C1020063A1CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091D95D01E60C1020063A1CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		091D95D41E60C1020063A1CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091D95D51E60C1020063A1CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		091D95D81E60C1020063A1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		091D95D91E60C1020063A1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		091D95DB1E60C1020063A1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC85E242CDC9BDD0F80659BC /* Pods-App_GaritosMadrid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = App_GaritosMadrid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "serguma.App-GaritosMadrid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "App_GaritosMadrid/App_GaritosMadrid-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		091D95DC1E60C1020063A1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FAA26F510CE51383EBD245 /* Pods-App_GaritosMadrid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = App_GaritosMadrid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "serguma.App-GaritosMadrid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "App_GaritosMadrid/App_GaritosMadrid-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091D95C31E60C1020063A1CE /* Build configuration list for PBXProject "App_GaritosMadrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091D95D81E60C1020063A1CE /* Debug */,
+				091D95D91E60C1020063A1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		091D95DA1E60C1020063A1CE /* Build configuration list for PBXNativeTarget "App_GaritosMadrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091D95DB1E60C1020063A1CE /* Debug */,
+				091D95DC1E60C1020063A1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 091D95C01E60C1020063A1CE /* Project object */;
+}
